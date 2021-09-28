@@ -50,6 +50,7 @@ handleGamePlay = (index) => {
           )
         })}
         </div>
+        <button onClick={window.location.reload}>Restart Game</button>
       </>
     )
   }
